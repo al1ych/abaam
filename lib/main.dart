@@ -37,7 +37,7 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-  final apiUrl = 'http://192.168.0.100:3000';
+  final apiUrl = 'https://abaam-server.herokuapp.com';
   final Dio dio = Dio();
   String qr = "";
 
