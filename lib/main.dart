@@ -50,7 +50,7 @@ class _MainScreenState extends State<MainScreen> {
 
   @override
   void initState() {
-    Timer.periodic(const Duration(seconds: 2), (timer) {
+    Timer.periodic(const Duration(milliseconds: 200), (timer) {
       _requestQr();
       setState(() {});
     });
